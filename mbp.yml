@@ -10,6 +10,7 @@
         dest: ~/src/ansible/roles/ansible-role-mbp
         version: master
         update: yes
+      tags: ['always']
 
   roles:
   - ansible-role-mbp
