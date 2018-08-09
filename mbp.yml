@@ -7,12 +7,10 @@
     - name: Get the latest role from github
       git:
         repo: 'git@github.com:tomtastic/ansible-role-mbp.git'
-        dest: ~/src/ansible/roles/
+        dest: ~/src/ansible/roles/ansible-role-mbp
         version: master
-        update: no
-        keyfile: ~/.ssh/github
-        verify_commit: yes
+        update: yes
 
-  #  role:
-  #  - ansible-role-mbp
+  roles:
+  - ansible-role-mbp
 
