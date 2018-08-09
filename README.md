@@ -1,6 +1,7 @@
 # ansible-playbooks
 
 ```
+$ xcode-select --install
 $ sudo easy_install pip
 $ sudo -H pip install ansible
 $ mkdir -p ~/src && cd ~/src
