@@ -12,4 +12,5 @@ $ ansible-playbook mbp.yml -K
 $ ansible-playbook mbp.yml -K --tags "homebrew,mas,macos"
 ```
 
-NB: mas is currently broken since Apples High-Sierra changes to the app store
+NB: mas is currently broken due to some private framework changes with the App Store
+
