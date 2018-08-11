@@ -16,7 +16,11 @@ dotfiles_files:
   - .osx
   - .vimrc
 
-homebrew_installed_packages:
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_formulae:
   # - ansible # Installed via Pip.
   #- autoconf
   #- bash-completion
@@ -45,12 +49,8 @@ homebrew_installed_packages:
   #- wget
   #- wrk
 
-homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
-
 homebrew_cask_appdir: /Applications
-homebrew_cask_apps:
+homebrew_cask_formulae:
   - virtualbox
   - virtualbox-extension-pack
   - vagrant
