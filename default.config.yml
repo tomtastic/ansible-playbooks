@@ -1,20 +1,22 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_dotfiles: no
-configure_sudoers: no
-configure_terminal: no
-configure_osx: no
+configure_dotfiles: yes
+configure_macos: yes
 
 dotfiles_repo: https://github.com/tomtastic/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
-dotfiles_repo_local_destination: ~/dotfiles
+dotfiles_repo_local_destination: ~/src/dotfiles
 dotfiles_files:
-  - .bash_profile
+  - .zshrc
   - .gitignore
-  - .inputrc
-  - .osx
+  - .gitconfig
   - .vimrc
+  - .osx
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
@@ -32,7 +34,8 @@ homebrew_installed_packages:
   #- libevent
   #- sqlite
   #- mcrypt
-  #- nmap
+  - mas
+  - nmap
   #- node
   #- nvm
   #- php
@@ -44,30 +47,41 @@ homebrew_installed_packages:
   #- wget
   #- wrk
 
-homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - virtualbox
+  - virtualbox-extension-pack
+  - vagrant
+  - vlc
+  - iterm2
+  - xquartz
+  - handbrake
+  - slack
   #- chromedriver
   #- docker
   #- dropbox
   #- firefox
   #- google-chrome
-  #- handbrake
   #- licecap
   #- limechat
-  #- macvim
   #- sequel-pro
   #- skitch
-  #- slack
   #- sublime-text
   #- transmit
-  #- vagrant
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps:
+  - { id: 497799835,  name: "Xcode" }
+  - { id: 409201541,  name: "Pages" }
+  - { id: 409203825,  name: "Numbers" }
+  - { id: 409183694,  name: "Keynote" }
+  - { id: 408981434,  name: "iMovie" }
+  - { id: 1037126344, name: "Apple Configurator 2" }
+  - { id: 425424353,  name: "The Unarchiver" }
+  - { id: 1160435653, name: "AutoMounter" }
+  #- { id: 443987910,  name: "1Password" }
+  #- { id: 557168941,  name: "Tweetbot" }
 mas_email: ""
 mas_password: ""
 
