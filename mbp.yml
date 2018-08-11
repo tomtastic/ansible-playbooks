@@ -53,11 +53,3 @@
       - role: ansible-role-mbp
         when: configure_macos
         tags: ['macos']
-
-
-
-
-
-
-
-
