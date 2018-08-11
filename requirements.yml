@@ -1,0 +1,20 @@
+---
+- name: elliotweiser.ansible-osx-command-line-tools
+  src: 'git@github.com:elliotweiser/ansible-osx-command-line-tools.git'
+  version: origin/master
+
+- name: geerlingguy.ansible-role-homebrew
+  src: 'git@github.com:geerlingguy/ansible-role-homebrew.git'
+  version: origin/master
+
+- name: geerlingguy.ansible-role-mas
+  src: 'git@github.com:geerlingguy/ansible-role-mas.git'
+  version: origin/master
+
+- name: tomtastic.ansible-role-dotfiles
+  src: 'git@github.com:tomtastic/ansible-role-dotfiles.git'
+  version: origin/master
+
+- name: tomtastic.ansible-role-mbp
+  src: 'git@github.com:tomtastic/ansible-role-mbp.git'
+  version: origin/master

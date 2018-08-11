@@ -13,43 +13,6 @@
         - ./config.yml
       tags: ['always']
 
-  tasks:
-    - name: Get elliotweiser/ansible-osx-command-line-tools from Github
-      git:
-        repo: 'git@github.com:elliotweiser/ansible-osx-command-line-tools.git'
-        dest: ~/src/ansible/roles/elliotweiser.osx-command-line-tools
-        version: master
-        update: no
-      tags: ['homebrew']
-    - name: Get geerlingguy/ansible-role-homebrew from Github
-      git:
-        repo: 'git@github.com:geerlingguy/ansible-role-homebrew.git'
-        dest: ~/src/ansible/roles/geerlingguy.homebrew
-        version: master
-        update: no
-      tags: ['homebrew']
-    - name: Get geerlingguy/ansible-role-mas from Github
-      git:
-        repo: 'git@github.com:geerlingguy/ansible-role-mas.git'
-        dest: ~/src/ansible/roles/geerlingguy.mas
-        version: master
-        update: no
-      tags: ['mas']
-    - name: Get tomtastic/ansible-role-dotfiles from Github
-      git:
-        repo: 'git@github.com:tomtastic/ansible-role-dotfiles.git'
-        dest: ~/src/ansible/roles/ansible-role-dotfiles
-        version: master
-        update: no
-      tags: ['dotfiles']
-    - name: Get latest tomtastic/ansible-role-mbp from Github
-      git:
-        repo: 'git@github.com:tomtastic/ansible-role-mbp.git'
-        dest: ~/src/ansible/roles/ansible-role-mbp
-        version: master
-        update: no
-      tags: ['macos']
-
   roles:
     - name: Apply role geerlingguy.homebrew
       role: elliotweiser.osx-command-line-tools

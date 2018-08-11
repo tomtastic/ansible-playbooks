@@ -7,9 +7,12 @@ $ sudo -H pip install ansible
 $ mkdir -p ~/src && cd ~/src
 $ git clone git@github.com:tomtastic/ansible-playbooks.git ansible
 $ cd ansible
-$ ansible-playbook mbp.yml --list-tasks
+$ ansible-galaxy install -r requirements.yml
+$ ansible-playbook mbp.yml --list-tags
+$ ansible-playbook mbp.yml --tags "macos" --list-tasks
 $ ansible-playbook mbp.yml -K
-$ ansible-playbook mbp.yml -K --tags "homebrew,mas,macos"
+  or just run specific tags...
+$ ansible-playbook mbp.yml -K --tags "homebrew,mas"
 ```
 
 NB: mas is currently broken due to some private framework changes with the App Store
