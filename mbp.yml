@@ -12,63 +12,65 @@
       with_fileglob:
         - ./config.yml
       tags: ['always']
-    - name: Get latest elliotweiser/ansible-osx-command-line-tools from github
+
+  tasks:
+    - name: Get elliotweiser/ansible-osx-command-line-tools from Github
       git:
         repo: 'git@github.com:elliotweiser/ansible-osx-command-line-tools.git'
         dest: ~/src/ansible/roles/elliotweiser.osx-command-line-tools
         version: master
-        update: yes
+        update: no
       tags: ['homebrew']
-    - name: Get latest geerlingguy/ansible-role-homebrew from github
+    - name: Get geerlingguy/ansible-role-homebrew from Github
       git:
         repo: 'git@github.com:geerlingguy/ansible-role-homebrew.git'
-        dest: ~/src/ansible/roles/ansible-role-homebrew
+        dest: ~/src/ansible/roles/geerlingguy.homebrew
         version: master
-        update: yes
+        update: no
       tags: ['homebrew']
-    - name: Get latest geerlingguy/ansible-role-mas from github
+    - name: Get geerlingguy/ansible-role-mas from Github
       git:
         repo: 'git@github.com:geerlingguy/ansible-role-mas.git'
-        dest: ~/src/ansible/roles/ansible-role-mas
+        dest: ~/src/ansible/roles/geerlingguy.mas
         version: master
-        update: yes
-      tags: ['mas,homebrew']
-    - name: Get latest tomtastic/ansible-role-dotfiles from github
+        update: no
+      tags: ['mas']
+    - name: Get tomtastic/ansible-role-dotfiles from Github
       git:
         repo: 'git@github.com:tomtastic/ansible-role-dotfiles.git'
         dest: ~/src/ansible/roles/ansible-role-dotfiles
         version: master
-        update: yes
+        update: no
       tags: ['dotfiles']
-    - name: Get latest tomtastic/ansible-role-mbp from github
+    - name: Get latest tomtastic/ansible-role-mbp from Github
       git:
         repo: 'git@github.com:tomtastic/ansible-role-mbp.git'
         dest: ~/src/ansible/roles/ansible-role-mbp
         version: master
-        update: yes
+        update: no
       tags: ['macos']
 
-  tasks:
-    - name: ansible-role-homebrew
-      include_role:
-        name: ansible-role-homebrew
+  roles:
+    - name: Apply role geerlingguy.homebrew
+      role: elliotweiser.osx-command-line-tools
       tags: ['homebrew']
 
-    - name: ansible-role-mas
-      include_role:
-        name: ansible-role-mas
+    - name: Apply role geerlingguy.mas
+      role: geerlingguy.homebrew
+      tags: ['homebrew']
+
+    - name: Apply role geerlingguy.mas
+      role: geerlingguy.mas
       when: mas_installed_apps
       tags: ['mas']
 
-    - name: ansible-role-dotfiles
-      include_role:
-        name: ansible-role-dotfiles
+    - name: Apply role tomtastic.dotfiles
+      role: ansible-role-dotfiles
       when: configure_dotfiles
       tags: ['dotfiles']
 
-    - name: ansible-role-mbp
-      include_role:
-        name: ansible-role-mbp
+    - name: Apply role tomtastic.mbp
+      role: ansible-role-mbp
       when: configure_macos
       tags: ['macos']
 
