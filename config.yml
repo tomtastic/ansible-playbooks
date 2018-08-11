@@ -2,19 +2,17 @@
 downloads: ~/.ansible-downloads/
 
 configure_dotfiles: no
-configure_sudoers: no
-configure_terminal: no
-configure_osx: no
+configure_macos: yes
 
 dotfiles_repo: https://github.com/tomtastic/dotfiles.git
 dotfiles_repo_accept_hostkey: yes
 dotfiles_repo_local_destination: ~/dotfiles
 dotfiles_files:
-  - .bash_profile
+  - .zshrc
   - .gitignore
-  - .inputrc
-  - .osx
+  - .gitconfig
   - .vimrc
+  - .osx
 
 homebrew_taps:
   - homebrew/core
