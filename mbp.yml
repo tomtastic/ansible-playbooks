@@ -28,12 +28,12 @@
       tags: ['mas']
 
     - name: Apply role tomtastic.dotfiles
-      role: ansible-role-dotfiles
+      role: tomtastic.dotfiles
       when: configure_dotfiles
       tags: ['dotfiles']
 
     - name: Apply role tomtastic.mbp
-      role: ansible-role-mbp
+      role: tomtastic.macos
       when: configure_macos
       tags: ['macos']
 
