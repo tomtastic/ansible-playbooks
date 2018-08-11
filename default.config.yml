@@ -63,6 +63,7 @@ homebrew_cask_apps:
   - google-chrome
   - omnifocus
   - signal
+  - torbrowser
   #- chromedriver
   #- docker
   #- dropbox
