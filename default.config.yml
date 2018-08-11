@@ -60,11 +60,12 @@ homebrew_cask_apps:
   - slack
   - citrix-receiver
   - gpg-suite
+  - google-chrome
+  - omnifocus
   #- chromedriver
   #- docker
   #- dropbox
   #- firefox
-  #- google-chrome
   #- licecap
   #- limechat
   #- sequel-pro
