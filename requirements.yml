@@ -4,11 +4,11 @@
 - name: geerlingguy.mas
 
 - name: tomtastic.dotfiles
-  src: 'https://github.com/tomtastic/ansible-role-dotfiles.git'
+  src: 'git@github.com:tomtastic/ansible-role-dotfiles.git'
   scm: git
   version: origin/master
 
 - name: tomtastic.macos
-  src: 'https://github.com/tomtastic/ansible-role-macos.git'
+  src: 'git@github.com:tomtastic/ansible-role-macos.git'
   scm: git
   version: origin/master
