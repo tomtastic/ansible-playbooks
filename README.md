@@ -7,7 +7,7 @@ $ sudo -H pip install ansible
 $ mkdir -p ~/src && cd ~/src
 $ git clone git@github.com:tomtastic/ansible-playbooks.git ansible
 $ cd ansible
-$ ansible-galaxy install --roles-path roles -r requirements.yml
+$ ansible-galaxy install --roles-path roles --no-deps --force -r requirements.yml
 $ ansible-playbook mbp.yml --list-tags
 $ ansible-playbook mbp.yml --tags "macos" --list-tasks
 $ ansible-playbook mbp.yml -K
