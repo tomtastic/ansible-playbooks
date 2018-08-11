@@ -62,6 +62,7 @@ homebrew_cask_apps:
   - gpg-suite
   - google-chrome
   - omnifocus
+  - signal
   #- chromedriver
   #- docker
   #- dropbox
