@@ -58,6 +58,8 @@ homebrew_cask_apps:
   - xquartz
   - handbrake
   - slack
+  - citrix-receiver
+  - gpg-suite
   #- chromedriver
   #- docker
   #- dropbox
