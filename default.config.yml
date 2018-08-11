@@ -65,6 +65,7 @@ homebrew_cask_apps:
   - signal
   - torbrowser
   - whatsapp
+  - hex-fiend
   #- chromedriver
   #- docker
   #- dropbox
