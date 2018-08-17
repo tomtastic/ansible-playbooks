@@ -93,6 +93,7 @@ mas_installed_apps:
   - { id: 1037126344, name: "Apple Configurator 2" }
   - { id: 425424353,  name: "The Unarchiver" }
   - { id: 1160435653, name: "AutoMounter" }
+  - { id: 928871589, name: "noizio" }
   #- { id: 443987910,  name: "1Password" }
   #- { id: 557168941,  name: "Tweetbot" }
 mas_email: ""
