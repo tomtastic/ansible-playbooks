@@ -32,6 +32,7 @@ homebrew_installed_packages:
   #- httpie
   #- iperf
   #- libevent
+  - libev
   #- sqlite
   #- mcrypt
   - mas
