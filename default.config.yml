@@ -52,24 +52,25 @@ homebrew_installed_packages:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - virtualbox
-  - virtualbox-extension-pack
-  - vagrant
-  - vlc
-  - iterm2
-  - xquartz
-  - handbrake
-  - slack
   - citrix-receiver
+  - corectl-app
+  - cutter
   - gpg-suite
   - google-chrome
+  - handbrake
+  - hex-fiend
+  - iterm2
   - omnifocus
   - signal
+  - slack
   - torbrowser
+  - vagrant
+  - virtualbox
+  - virtualbox-extension-pack
+  - vlc
   - whatsapp
-  - hex-fiend
   - xact
-  - cutter
+  - xquartz
   #- chromedriver
   #- docker
   #- dropbox
