@@ -63,6 +63,7 @@ homebrew_cask_apps:
   - omnifocus
   - signal
   - slack
+  - textual
   - torbrowser
   - vagrant
   - virtualbox
