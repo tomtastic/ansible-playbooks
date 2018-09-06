@@ -65,6 +65,7 @@ homebrew_cask_apps:
   - hex-fiend
   - iterm2
   - omnifocus
+  - scroll-reverser
   - signal
   - slack
   - textual
