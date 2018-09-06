@@ -42,6 +42,7 @@ homebrew_installed_packages:
   #- nvm
   #- php
   - rbspy
+  - rust
   #- ssh-copy-id
   #- cowsay
   #- readline
