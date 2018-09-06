@@ -22,6 +22,7 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   #- autoconf
   #- bash-completion
+  - cmake
   - corectl
   #- doxygen
   #- gettext
@@ -46,6 +47,7 @@ homebrew_installed_packages:
   #- ssh-copy-id
   #- cowsay
   #- readline
+  - sphinx-doc
   #- openssl
   #- pv
   #- wget
