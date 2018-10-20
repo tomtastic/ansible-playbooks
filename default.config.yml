@@ -1,11 +1,11 @@
 ---
 downloads: ~/.ansible-downloads/
 
-configure_dotfiles: yes
-configure_macos: yes
+configure_dotfiles: true
+configure_macos: true
 
 dotfiles_repo: https://github.com/tomtastic/dotfiles.git
-dotfiles_repo_accept_hostkey: yes
+dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/src/dotfiles
 dotfiles_files:
   - .zshrc
@@ -20,38 +20,38 @@ homebrew_taps:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
-  #- autoconf
-  #- bash-completion
+  # - autoconf
+  # - bash-completion
   - cmake
   - corectl
-  #- cowsay
-  #- doxygen
-  #- gettext
-  #- gifsicle
-  #- git
-  #- go
-  #- gpg
-  #- hub
-  #- httpie
-  #- iperf
-  #- libevent
+  # - cowsay
+  # - doxygen
+  # - gettext
+  # - gifsicle
+  # - git
+  # - go
+  # - gpg
+  # - hub
+  # - httpie
+  # - iperf
+  # - libevent
   - libev
-  #- sqlite
-  #- mcrypt
+  # - sqlite
+  # - mcrypt
   - mas
   - nmap
-  #- node
-  #- nvm
-  #- openssl
-  #- php
-  #- pv
+  # - node
+  # - nvm
+  # - openssl
+  # - php
+  # - pv
   - rbspy
   - rust
-  #- readline
-  #- ssh-copy-id
+  # - readline
+  # - ssh-copy-id
   - sphinx-doc
-  #- wget
-  #- wrk
+  # - wget
+  # - wrk
   - yamllint
 
 
@@ -78,30 +78,30 @@ homebrew_cask_apps:
   - whatsapp
   - xact
   - xquartz
-  #- chromedriver
-  #- docker
-  #- dropbox
-  #- firefox
-  #- licecap
-  #- limechat
-  #- sequel-pro
-  #- skitch
-  #- sublime-text
-  #- transmit
+  # - chromedriver
+  # - docker
+  # - dropbox
+  # - firefox
+  # - licecap
+  # - limechat
+  # - sequel-pro
+  # - skitch
+  # - sublime-text
+  # - transmit
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
-  - { id: 497799835,  name: "Xcode" }
-  - { id: 409201541,  name: "Pages" }
-  - { id: 409203825,  name: "Numbers" }
-  - { id: 409183694,  name: "Keynote" }
-  - { id: 408981434,  name: "iMovie" }
-  - { id: 1037126344, name: "Apple Configurator 2" }
-  - { id: 425424353,  name: "The Unarchiver" }
-  - { id: 1160435653, name: "AutoMounter" }
-  - { id: 928871589, name: "noizio" }
-  #- { id: 443987910,  name: "1Password" }
-  #- { id: 557168941,  name: "Tweetbot" }
+  - {id: 497799835, name: "Xcode"}
+  - {id: 409201541, name: "Pages"}
+  - {id: 409203825, name: "Numbers"}
+  - {id: 409183694, name: "Keynote"}
+  - {id: 408981434, name: "iMovie"}
+  - {id: 1037126344, name: "Apple Configurator 2"}
+  - {id: 425424353, name: "The Unarchiver"}
+  - {id: 1160435653, name: "AutoMounter"}
+  - {id: 928871589, name: "noizio"}
+  # - { id: 443987910,  name: "1Password" }
+  # - { id: 557168941,  name: "Tweetbot" }
 mas_email: ""
 mas_password: ""
 
@@ -111,22 +111,21 @@ osx_script: "~/.osx --no-restart"
 # Note: You are responsible for making sure the required package managers are
 # installed, eg. through homebrew.
 composer_packages: []
-  # - name: drush
-  #   state: present # present/absent, default: present
-  #   version: "^8.1" # default: N/A
+# - name: drush
+#   state: present # present/absent, default: present
+#   version: "^8.1" # default: N/A
 gem_packages: []
-  # - name: bundler
-  #   state: present # present/absent/latest, default: present
-  #   version: "~> 1.15.1" # default: N/A
+# - name: bundler
+#   state: present # present/absent/latest, default: present
+#   version: "~> 1.15.1" # default: N/A
 npm_packages: []
-  # - name: webpack
-  #   state: present # present/absent/latest, default: present
-  #   version: "^2.6" # default: N/A
+# - name: webpack
+#   state: present # present/absent/latest, default: present
+#   version: "^2.6" # default: N/A
 pip_packages: []
-  # - name: mkdocs
-  #   state: present # present/absent/latest, default: present
-  #   version: "0.16.3" # default: N/A
+# - name: mkdocs
+#   state: present # present/absent/latest, default: present
+#   version: "0.16.3" # default: N/A
 
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks: []
-
