@@ -12,6 +12,7 @@ dotfiles_files:
   - .gitignore
   - .gitconfig
   - .vimrc
+  - .vim
   - .osx
 
 homebrew_taps:
