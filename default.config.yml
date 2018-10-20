@@ -24,6 +24,7 @@ homebrew_installed_packages:
   #- bash-completion
   - cmake
   - corectl
+  #- cowsay
   #- doxygen
   #- gettext
   #- gifsicle
@@ -41,22 +42,22 @@ homebrew_installed_packages:
   - nmap
   #- node
   #- nvm
+  #- openssl
   #- php
+  #- pv
   - rbspy
   - rust
-  #- ssh-copy-id
-  #- cowsay
   #- readline
+  #- ssh-copy-id
   - sphinx-doc
-  #- openssl
-  #- pv
   #- wget
   #- wrk
+  - yamllint
 
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - citrix-receiver
+  - citrix-workspace
   - corectl-app
   - cutter
   - gpg-suite

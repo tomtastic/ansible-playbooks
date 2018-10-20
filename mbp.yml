@@ -4,7 +4,7 @@
   gather_facts: yes
 
   vars_files:
-    - default.config.yml
+  - default.config.yml
 
   pre_tasks:
     - name: Read customisations
