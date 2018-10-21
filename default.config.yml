@@ -49,6 +49,7 @@ homebrew_installed_packages:
   - rbspy
   - rust
   # - readline
+  - shellcheck
   # - ssh-copy-id
   - sphinx-doc
   # - wget
