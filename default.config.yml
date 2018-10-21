@@ -60,6 +60,7 @@ homebrew_installed_packages:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - blockblock
   - citrix-workspace
   - corectl-app
   - cutter
@@ -68,7 +69,10 @@ homebrew_cask_apps:
   - handbrake
   - hex-fiend
   - iterm2
+  - kextviewr
+  - knockknock
   - omnifocus
+  - oversight
   - scroll-reverser
   - signal
   - slack
