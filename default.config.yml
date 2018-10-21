@@ -9,6 +9,7 @@ dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/src/dotfiles
 dotfiles_files:
   - .zshrc
+  - .oh-my-zsh
   - .gitignore
   - .gitconfig
   - .vimrc
