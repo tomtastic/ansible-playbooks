@@ -25,6 +25,7 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   # - autoconf
   # - bash-completion
+  - binwalk
   - cmake
   - corectl
   # - cowsay
