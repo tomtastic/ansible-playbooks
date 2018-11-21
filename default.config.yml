@@ -86,6 +86,7 @@ homebrew_cask_apps:
   - virtualbox-extension-pack
   - vlc
   - whatsapp
+  - wireshark
   - xact
   - xquartz
   # - chromedriver
