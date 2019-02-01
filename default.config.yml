@@ -71,7 +71,7 @@ homebrew_cask_apps:
   - gpg-suite
   - google-chrome
   - handbrake
-  - hex-fiend
+  - hex-fiend-beta
   - iterm2
   - kextviewr
   - knockknock
