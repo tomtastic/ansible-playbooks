@@ -29,6 +29,7 @@ homebrew_installed_packages:
   - cmake
   - corectl
   # - cowsay
+  - ctags
   # - doxygen
   # - gettext
   # - gifsicle
