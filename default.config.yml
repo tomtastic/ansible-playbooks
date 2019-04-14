@@ -48,6 +48,7 @@ homebrew_installed_packages:
   # - node
   # - nvm
   # - openssl
+  - pandoc
   # - php
   # - pv
   - rbspy
