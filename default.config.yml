@@ -82,6 +82,7 @@ homebrew_cask_apps:
   - oversight
   - reikey
   - scroll-reverser
+  - sdformatter
   - signal
   - slack
   - taskexplorer
