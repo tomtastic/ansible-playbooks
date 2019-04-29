@@ -91,6 +91,7 @@ homebrew_cask_apps:
   - vagrant
   - virtualbox
   - virtualbox-extension-pack
+  - visual-studio-code
   - vlc
   - whatsapp
   - wireshark
