@@ -71,6 +71,7 @@ homebrew_cask_apps:
   - citrix-workspace
   - corectl-app
   - cutter
+  - detectx-swift
   - gpg-suite
   - google-chrome
   - handbrake
