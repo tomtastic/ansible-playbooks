@@ -39,6 +39,7 @@ homebrew_installed_packages:
   # - hub
   # - httpie
   # - iperf
+  - jq
   # - libevent
   - libev
   # - sqlite
