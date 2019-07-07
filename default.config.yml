@@ -27,7 +27,6 @@ homebrew_installed_packages:
   # - bash-completion
   - binwalk
   - cmake
-  - corectl
   # - cowsay
   - ctags
   # - doxygen
@@ -77,7 +76,7 @@ homebrew_cask_apps:
   - detectx-swift
   - gpg-suite
   - google-chrome
-  - handbrake
+  - handbrake-nightly
   - hex-fiend-beta
   - iterm2
   - kextviewr
