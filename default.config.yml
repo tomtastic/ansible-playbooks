@@ -92,6 +92,7 @@ homebrew_cask_apps:
   - send-to-kindle
   - signal
   - slack
+  - stubbymanager
   - taskexplorer
   - textual
   - tor-browser
