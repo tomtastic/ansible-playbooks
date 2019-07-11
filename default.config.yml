@@ -51,6 +51,7 @@ homebrew_installed_packages:
   - pandoc
   # - php
   # - pv
+  - qemu
   - rbspy
   - rust
   # - readline
