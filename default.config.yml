@@ -73,7 +73,7 @@ homebrew_cask_apps:
   - caffeine
   - calibre
   # Citrix needs a manual download now :<
-  #  - citrix-workspace
+  # brew cask install https://www.corecode.io/macupdater/casks/citrix-workspace.rb
   - corectl
   - cutter
   - detectx-swift
