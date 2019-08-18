@@ -72,8 +72,9 @@ homebrew_cask_apps:
   - blockblock
   - caffeine
   - calibre
-  - citrix-workspace
-  - corectl-app
+  # Citrix needs a manual download now :<
+  #  - citrix-workspace
+  - corectl
   - cutter
   - detectx-swift
   - gpg-suite
