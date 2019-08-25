@@ -50,10 +50,13 @@ homebrew_installed_packages:
   # - nvm
   # - openssl
   - pandoc
+  - perl
   # - php
   # - pv
+  - python3
   - qemu
   - rbspy
+  - ruby
   - rust
   # - readline
   - shellcheck
