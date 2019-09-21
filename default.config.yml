@@ -106,6 +106,7 @@ homebrew_cask_apps:
   - virtualbox-extension-pack
   - visual-studio-code
   - vlc
+  - vmware-fusion
   - whatsapp
   - wireshark
   - xact
