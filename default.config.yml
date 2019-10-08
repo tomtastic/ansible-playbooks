@@ -82,6 +82,7 @@ homebrew_cask_apps:
   - cutter
   - detectx-swift
   - doomsday-engine
+  - doxie
   - gpg-suite
   - google-chrome
   - handbrake-nightly
