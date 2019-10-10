@@ -19,6 +19,7 @@ dotfiles_files:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - buo/cask-upgrade
 
 homebrew_installed_packages:
   - ack
