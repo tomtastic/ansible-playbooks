@@ -83,6 +83,7 @@ homebrew_cask_apps:
   - corectl
   - cutter
   - detectx-swift
+  - gimp
   - doomsday-engine
   - doxie
   - gpg-suite
@@ -102,6 +103,7 @@ homebrew_cask_apps:
   - send-to-kindle
   - signal
   - slack
+  - db-browser-for-sqlite
   - stubbymanager
   - taskexplorer
   - textual
