@@ -24,6 +24,7 @@ homebrew_taps:
 homebrew_installed_packages:
   - ack
   # - ansible # Installed via Pip.
+  - azure-cli
   # - autoconf
   # - bash-completion
   - binwalk
