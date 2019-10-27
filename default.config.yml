@@ -92,6 +92,7 @@ homebrew_cask_apps:
   - google-chrome
   - handbrake-nightly
   - hex-fiend-beta
+  - intel-power-gadget
   - iterm2
   - kextviewr
   - kindle-previewer
