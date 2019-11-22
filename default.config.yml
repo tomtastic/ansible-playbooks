@@ -99,6 +99,7 @@ homebrew_cask_apps:
   - knockknock
   - omnifocus
   - oversight
+  - postman
   - reikey
   - scroll-reverser
   - sdformatter
