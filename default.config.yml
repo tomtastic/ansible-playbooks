@@ -119,6 +119,7 @@ homebrew_cask_apps:
   - vlc
   - vmware-fusion
   - whatsapp
+  - wget
   - wireshark
   - xact
   - xquartz
