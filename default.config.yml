@@ -68,13 +68,14 @@ homebrew_installed_packages:
   - sphinx-doc
   - telnet
   - watch
-  # - wget
+  - wget
   # - wrk
   - yamllint
 
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - adoptopenjdk
   - avibrazil-rdm
   - bettertouchtool
   - blockblock
@@ -88,6 +89,7 @@ homebrew_cask_apps:
   - gimp
   - doomsday-engine
   - doxie
+  - ghidra
   - gpg-suite
   - google-chrome
   - handbrake-nightly
@@ -119,7 +121,6 @@ homebrew_cask_apps:
   - vlc
   - vmware-fusion
   - whatsapp
-  - wget
   - wireshark
   - xact
   - xquartz
