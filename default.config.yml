@@ -68,6 +68,7 @@ homebrew_installed_packages:
   # - ssh-copy-id
   - sphinx-doc
   - telnet
+  - testdisk
   - watch
   - wget
   # - wrk
