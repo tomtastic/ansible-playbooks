@@ -125,7 +125,6 @@ homebrew_cask_apps:
   - whatsapp
   - wireshark
   - xact
-  - xquartz
   # - chromedriver
   # - docker
   # - dropbox
