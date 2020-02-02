@@ -69,6 +69,7 @@ homebrew_installed_packages:
   - sphinx-doc
   - telnet
   - testdisk
+  - tree
   - watch
   - wget
   # - wrk
