@@ -25,7 +25,9 @@ homebrew_installed_packages:
   - ack
   # - ansible # Installed via Pip.
   - azure-cli
-  # - autoconf
+  - autoconf
+  - autogen
+  - automake
   # - bash-completion
   - binwalk
   - cmake
