@@ -83,6 +83,7 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - adoptopenjdk
   - avibrazil-rdm
+  - balenaetcher
   - bettertouchtool
   - blockblock
   - caffeine
