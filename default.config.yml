@@ -55,6 +55,7 @@ homebrew_installed_packages:
   - nmap
   # - node
   # - nvm
+  - openjdk@11
   # - openssl
   - pandoc
   - perl
