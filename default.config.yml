@@ -118,7 +118,6 @@ homebrew_cask_apps:
   - signal
   - slack
   - db-browser-for-sqlite
-  - stubbymanager
   - taskexplorer
   - textual
   - tor-browser
