@@ -71,6 +71,7 @@ homebrew_installed_packages:
   - shellcheck
   # - ssh-copy-id
   - sphinx-doc
+  - squashfs
   - telnet
   - testdisk
   - tree
