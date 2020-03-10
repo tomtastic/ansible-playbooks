@@ -128,7 +128,8 @@ homebrew_cask_apps:
   - visual-studio-code
   - vlc
   - vmware-fusion
-  - whatsapp
+  # The whatsapp-helper is just too annoying and electron apps don't deserve admin rights
+  #- whatsapp
   - wireshark
   - xact
   # - chromedriver
