@@ -56,6 +56,7 @@ homebrew_installed_packages:
   # - node
   # - nvm
   - openjdk@11
+  - openocd --HEAD
   # - openssl
   - pandoc
   - perl
@@ -129,7 +130,7 @@ homebrew_cask_apps:
   - vlc
   - vmware-fusion
   # The whatsapp-helper is just too annoying and electron apps don't deserve admin rights
-  #- whatsapp
+  # - whatsapp
   - wireshark
   - xact
   # - chromedriver
