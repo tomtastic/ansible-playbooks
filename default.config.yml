@@ -63,6 +63,7 @@ homebrew_installed_packages:
   # - php
   - pngcrush
   # - pv
+  - pylint
   - python3
   - qemu
   - rbspy
@@ -76,6 +77,7 @@ homebrew_installed_packages:
   - telnet
   - testdisk
   - tree
+  - vim
   - watch
   - wget
   # - wrk
