@@ -98,6 +98,7 @@ homebrew_cask_apps:
   - corectl
   - coconutbattery
   - cutter
+  - dash
   - detectx-swift
   - gimp
   - doomsday-engine
@@ -134,6 +135,7 @@ homebrew_cask_apps:
   - vmware-fusion
   # The whatsapp-helper is just too annoying and electron apps don't deserve admin rights
   # - whatsapp
+  - whatsyoursign
   - wireshark
   - xact
   # - chromedriver
