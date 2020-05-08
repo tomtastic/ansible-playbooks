@@ -105,8 +105,9 @@ homebrew_cask_apps:
   - doomsday-engine
   - doxie
   - ghidra
-  - gpg-suite
   - google-chrome
+  - gpg-suite
+  - grandperspective
   - handbrake-nightly
   - hex-fiend-beta
   - intel-power-gadget
