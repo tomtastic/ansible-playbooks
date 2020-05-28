@@ -50,9 +50,9 @@ homebrew_installed_packages:
   - jq
   # - libevent
   - libev
-  # - sqlite
-  # - mcrypt
+  - lsusb
   - mas
+  # - mcrypt
   - nmap
   # - node
   # - nvm
@@ -74,6 +74,7 @@ homebrew_installed_packages:
   - shellcheck
   # - ssh-copy-id
   - sphinx-doc
+  # - sqlite
   - squashfs
   - telnet
   - testdisk
