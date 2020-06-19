@@ -79,6 +79,7 @@ homebrew_installed_packages:
   - telnet
   - testdisk
   - tree
+  - upx
   - vim
   - watch
   - wget
