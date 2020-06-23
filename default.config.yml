@@ -44,6 +44,7 @@ homebrew_installed_packages:
   # - git
   # - go
   # - gpg
+  - hexyl
   # - hub
   # - httpie
   # - iperf
