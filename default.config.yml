@@ -79,6 +79,7 @@ homebrew_installed_packages:
   - squashfs
   - telnet
   - testdisk
+  - the_silver_searcher
   - tree
   - upx
   - vim
