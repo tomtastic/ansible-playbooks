@@ -37,6 +37,7 @@ homebrew_installed_packages:
   - distribution
   - dos2unix
   # - doxygen
+  - fd
   - flashrom
   - gawk
   # - gettext
