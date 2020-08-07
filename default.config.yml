@@ -97,6 +97,7 @@ homebrew_cask_apps:
   - avibrazil-rdm
   - bettertouchtool
   - blockblock
+  - burp-suite
   - caffeine
   - calibre
   # Citrix needs a manual download now :<
