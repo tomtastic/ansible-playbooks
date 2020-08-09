@@ -37,6 +37,8 @@ homebrew_installed_packages:
   - distribution
   - dos2unix
   # - doxygen
+  - exiftool
+  - exploitdb
   - fd
   - ffuf
   - flashrom
@@ -137,7 +139,7 @@ homebrew_cask_apps:
   - taskexplorer
   - textual
   - tor-browser
-  - tunnelblick
+  - tunnelblick-beta
   - vagrant
   - virtualbox
   - virtualbox-extension-pack
