@@ -137,6 +137,7 @@ homebrew_cask_apps:
   - taskexplorer
   - textual
   - tor-browser
+  - tunnelblick
   - vagrant
   - virtualbox
   - virtualbox-extension-pack
