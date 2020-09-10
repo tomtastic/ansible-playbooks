@@ -92,6 +92,7 @@ homebrew_installed_packages:
   - wget
   # - wrk
   - yamllint
+  - yubikey-personalization
 
 
 homebrew_cask_appdir: /Applications
@@ -152,7 +153,6 @@ homebrew_cask_apps:
   - whatsyoursign
   - wireshark
   - xact
-  - yubikey-personalization
   # - chromedriver
   # - docker
   # - dropbox
