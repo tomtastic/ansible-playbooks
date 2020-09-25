@@ -107,7 +107,8 @@ homebrew_cask_apps:
   - calibre
   # Citrix needs a manual download now :<
   # brew cask install https://www.corecode.io/macupdater/casks/citrix-workspace.rb
-  - corectl
+  # corectl cask no longer exists ?
+  #- corectl
   - coconutbattery
   - cutter
   - dash
