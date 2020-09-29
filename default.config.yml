@@ -37,6 +37,7 @@ homebrew_installed_packages:
   - distribution
   - dos2unix
   # - doxygen
+  - dtc
   - exiftool
   - exploitdb
   - fd
@@ -78,6 +79,7 @@ homebrew_installed_packages:
   - rust
   # - readline
   - shellcheck
+  - sleuthkit
   # - ssh-copy-id
   - sphinx-doc
   # - sqlite
