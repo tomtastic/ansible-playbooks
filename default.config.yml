@@ -113,7 +113,7 @@ homebrew_cask_apps:
   #- corectl
   - coconutbattery
   - cutter
-  - dash
+  - homebrew/cask/dash
   - detectx-swift
   - gimp
   - doomsday-engine
