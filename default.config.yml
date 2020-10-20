@@ -36,6 +36,7 @@ homebrew_installed_packages:
   - certigo
   - distribution
   - docker
+  - docker-machine
   - dos2unix
   # - doxygen
   - dtc
