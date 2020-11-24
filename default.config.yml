@@ -119,6 +119,7 @@ homebrew_cask_apps:
   - homebrew/cask/dash
   - detectx-swift
   - gimp
+  - docker
   - doomsday-engine
   - doxie
   - ghidra
