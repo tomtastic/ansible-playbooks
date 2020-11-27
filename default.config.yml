@@ -54,7 +54,7 @@ homebrew_installed_packages:
   # - gpg
   - hexyl
   # - hub
-  # - httpie
+  - httpie
   # - iperf
   - jq
   # - libevent
