@@ -146,6 +146,7 @@ homebrew_cask_apps:
   - reikey
   - scroll-reverser
   - sdformatter
+  - saleae-logic
   - send-to-kindle
   - signal
   - slack
