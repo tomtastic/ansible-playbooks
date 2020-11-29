@@ -89,6 +89,7 @@ homebrew_installed_packages:
   - testdisk
   - the_silver_searcher
   - tree
+  - tmux
   - unzip
   - upx
   - vim
