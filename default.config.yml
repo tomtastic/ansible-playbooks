@@ -71,6 +71,7 @@ homebrew_installed_packages:
   - perl
   # - php
   - pngcrush
+  - poetry
   # - pv
   - pylint
   - python3
