@@ -30,6 +30,7 @@ homebrew_installed_packages:
   - autogen
   - automake
   # - bash-completion
+  - bingrep
   - binwalk
   - cmake
   # - cowsay
