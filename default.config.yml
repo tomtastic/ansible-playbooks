@@ -154,6 +154,7 @@ homebrew_cask_apps:
   - send-to-kindle
   - signal
   - slack
+  - sonic-visualiser
   - db-browser-for-sqlite
   - taskexplorer
   - textual
