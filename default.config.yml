@@ -173,6 +173,7 @@ homebrew_cask_apps:
   - wireshark
   - xact
   - yubico-yubikey-manager
+  - zoom
   # - chromedriver
   # - docker
   # - dropbox
