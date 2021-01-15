@@ -78,6 +78,7 @@ homebrew_installed_packages:
   - pylint
   - python3
   - qemu
+  - radare2
   - rbspy
   - ruby
   - rust
