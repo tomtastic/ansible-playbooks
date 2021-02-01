@@ -40,7 +40,7 @@ homebrew_installed_packages:
   - docker
   - docker-machine
   - dos2unix
-  # - doxygen
+  - doxygen
   - dtc
   - exiftool
   - exploitdb
@@ -53,6 +53,7 @@ homebrew_installed_packages:
   # - gettext
   # - gifsicle
   # - git
+  - glibmm
   # - go
   # - gpg
   - hexyl
