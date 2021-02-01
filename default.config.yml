@@ -62,6 +62,7 @@ homebrew_installed_packages:
   - jq
   # - libevent
   - libev
+  - libzip
   - lsusb
   - mas
   # - mcrypt
