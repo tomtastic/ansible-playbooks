@@ -123,7 +123,7 @@ homebrew_cask_apps:
   # Citrix needs a manual download now :<
   # brew cask install https://www.corecode.io/macupdater/casks/citrix-workspace.rb
   # corectl cask no longer exists ?
-  #- corectl
+  # - corectl
   - coconutbattery
   - cutter
   - homebrew/cask/dash
@@ -134,7 +134,7 @@ homebrew_cask_apps:
   - doxie
   - ghidra
   - google-chrome
-  - gpg-suite
+  # - gpg-suite
   - grandperspective
   - handbrake-nightly
   - hex-fiend-beta
