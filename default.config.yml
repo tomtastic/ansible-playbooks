@@ -32,6 +32,7 @@ homebrew_installed_packages:
   # - bash-completion
   - bingrep
   - binwalk
+  - black
   - cmake
   # - cowsay
   - ctags
