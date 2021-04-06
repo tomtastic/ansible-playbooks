@@ -134,7 +134,7 @@ homebrew_cask_apps:
   - doomsday-engine
   - doxie
   - ghidra
-  - google-chrome
+  # - google-chrome
   # - gpg-suite
   - grandperspective
   - handbrake-nightly
