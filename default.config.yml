@@ -129,6 +129,7 @@ homebrew_cask_apps:
   - cutter
   - homebrew/cask/dash
   - detectx-swift
+  - firefox
   - gimp
   - docker
   - doomsday-engine
