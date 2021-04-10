@@ -157,6 +157,9 @@ homebrew_cask_apps:
   - omnifocus
   - oversight
   - postman
+  - protonmail-bridge
+  - protonvpn
+  - recaf
   - reikey
   - scroll-reverser
   - sdformatter
@@ -169,7 +172,6 @@ homebrew_cask_apps:
   - taskexplorer
   - textual
   - tor-browser
-  - tunnelblick-beta
   - vagrant
   - virtualbox
   - virtualbox-extension-pack
