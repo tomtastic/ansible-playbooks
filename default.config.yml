@@ -85,6 +85,7 @@ homebrew_installed_packages:
   - qemu
   - rar
   - radare2
+  - rbenv
   - rbspy
   - ruby
   - rust
