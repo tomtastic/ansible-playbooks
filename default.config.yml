@@ -174,8 +174,8 @@ homebrew_cask_apps:
   - textual
   - tor-browser
   - vagrant
-  - virtualbox
-  - virtualbox-extension-pack
+  # - virtualbox
+  # - virtualbox-extension-pack
   - visual-studio-code
   - vlc
   - vmware-fusion
