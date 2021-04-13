@@ -109,6 +109,7 @@ homebrew_installed_packages:
   - wget
   # - wrk
   - yamllint
+  - ykman
   - yubikey-personalization
 
 
