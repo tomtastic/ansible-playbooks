@@ -172,6 +172,7 @@ homebrew_cask_apps:
   - sonic-visualiser
   - db-browser-for-sqlite
   - taskexplorer
+  - telegram
   - textual
   - tor-browser
   - vagrant
