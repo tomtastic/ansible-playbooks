@@ -161,6 +161,7 @@ homebrew_cask_apps:
   - postman
   - protonmail-bridge
   - protonvpn
+  - xquartz
   - recaf
   - reikey
   - scroll-reverser
