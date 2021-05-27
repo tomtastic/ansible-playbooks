@@ -162,9 +162,10 @@ homebrew_cask_apps:
   - xquartz
   - recaf
   - reikey
+  - sage
+  - saleae-logic
   - scroll-reverser
   - sdformatter
-  - saleae-logic
   - send-to-kindle
   - signal
   - slack
