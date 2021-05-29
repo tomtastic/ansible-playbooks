@@ -142,7 +142,7 @@ homebrew_cask_apps:
   # - gpg-suite
   - grandperspective
   - handbrake-nightly
-  - hex-fiend-beta
+  - hex-fiend
   # - intel-power-gadget
   - iterm2
   - kextviewr
