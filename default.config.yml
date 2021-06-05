@@ -81,6 +81,7 @@ homebrew_installed_packages:
   - poetry
   - pre-commit
   # - pv
+  - pwntools
   - pylint
   - python3
   - qemu
