@@ -43,6 +43,7 @@ homebrew_installed_packages:
   - dos2unix
   - doxygen
   - dtc
+  - exempi
   - exiftool
   - exploitdb
   - fd
