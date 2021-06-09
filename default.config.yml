@@ -84,6 +84,7 @@ homebrew_installed_packages:
   - pwntools
   - pylint
   - python3
+  - python-tk
   - qemu
   - rar
   - radare2
