@@ -78,6 +78,7 @@ homebrew_installed_packages:
   - perl
   # - php
   - pinentry-mac
+  - pngcheck
   - pngcrush
   - poetry
   - pre-commit
