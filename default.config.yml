@@ -69,6 +69,7 @@ homebrew_installed_packages:
   - lsusb
   - mas
   # - mcrypt
+  - mono-libgdiplus
   - nmap
   # - node
   # - nvm
@@ -160,6 +161,7 @@ homebrew_cask_apps:
   - omnifocus
   - oversight
   - postman
+  - powershell
   - protonmail-bridge
   - protonvpn
   - xquartz
