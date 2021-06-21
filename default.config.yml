@@ -33,6 +33,7 @@ homebrew_installed_packages:
   - bingrep
   - binwalk
   - black
+  - cherrytree
   - cmake
   # - cowsay
   - ctags
