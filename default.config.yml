@@ -139,6 +139,7 @@ homebrew_cask_apps:
   - homebrew/cask/dash
   - detectx-swift
   - firefox
+  - flameshot
   - gimp
   - docker
   - doomsday-engine
