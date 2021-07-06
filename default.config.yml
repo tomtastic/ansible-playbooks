@@ -19,6 +19,7 @@ dotfiles_files:
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-fonts
   - buo/cask-upgrade
 
 homebrew_installed_packages:
@@ -140,6 +141,7 @@ homebrew_cask_apps:
   - detectx-swift
   - firefox
   - flameshot
+  - font-meslo-nerd-font
   - gimp
   - docker
   - doomsday-engine
