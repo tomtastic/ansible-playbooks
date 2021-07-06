@@ -141,7 +141,7 @@ homebrew_cask_apps:
   - detectx-swift
   - firefox
   - flameshot
-  - font-meslo-nerd-font
+  - font-meslo-for-powerline
   - gimp
   - docker
   - doomsday-engine
