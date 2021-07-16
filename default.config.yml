@@ -37,6 +37,7 @@ homebrew_installed_packages:
   - cherrytree
   - cmake
   # - cowsay
+  - crunch
   - ctags
   - certigo
   - distribution
